@@ -19,7 +19,10 @@
     "babel-tape-runner": "^2.0.1",
     "tape": "^4.6.3"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
   "scripts": {
     "prepublish": "npm run compile",
     "test": "npm run compile && babel-tape-runner test/*.js",
